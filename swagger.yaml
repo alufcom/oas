@@ -17,7 +17,7 @@ tags:
   - name: citizens
     description: Citizens of Israel
 paths:
-  /citizetns/{citizenId}:
+  /citizens/{citizenId}:
     get:
       summary: Get a citizen details
       operationId: getCitizenById
