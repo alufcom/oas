@@ -1,12 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  description: "This is a sample server Petstore server.  You can find out more about\
+  description: "This is a sample server YAEL-APIGEE-POC server.  You can find out more about\
     \ Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).\
     \  For this sample, you can use the api key `special-key` to test the authorization\
     \ filters."
   version: "1.0.5"
-  title: "Swagger Petstore"
+  title: "Swagger PIBA"
   termsOfService: "http://swagger.io/terms/"
   contact:
     email: "apiteam@swagger.io"
@@ -17,7 +17,7 @@ host: "petstore.swagger.io"
 basePath: "/v2"
 tags:
 - name: "pet"
-  description: "Everything about your Pets"
+  description: "Everything about your citizents"
   externalDocs:
     description: "Find out more"
     url: "http://swagger.io"
