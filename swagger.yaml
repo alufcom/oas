@@ -11,7 +11,7 @@ info:
     name: private
     url: https://yaelsoft.co.il
 servers:
-  - url: "https://data.mongodb-api.com/app/data-rtoee/endpoint/data/v1/action"
+  - url: "https://data.mongodb-api.com/app/data-rtoee/endpoint/data"
     description: Retail backend for Developing APIs course
 tags:
   - name: citizens
@@ -76,7 +76,8 @@ components:
         name:
           description: category name
           type: string
-    Categories:
+        
+    Citizens:
       type: array
       description: array of citizens
       items:
